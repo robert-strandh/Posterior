@@ -9,4 +9,9 @@
    #:successor1 #:successor2
    #:binary-operation-mixin
    #:unary-operation-mixin
-   #:commutative-mixin))
+   #:commutative-mixin
+   #:binary-bitwise-instruction
+   #:bitwise-and-instruction
+   #:bitwise-or-instruction
+   #:bitwise-exclusive-or-instruction
+   #:bitwise-not-instruction))
