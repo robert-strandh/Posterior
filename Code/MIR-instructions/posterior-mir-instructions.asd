@@ -3,4 +3,5 @@
 (defsystem "posterior-mir-instructions"
   :serial t
   :components
-  ((:file "packages")))
+  ((:file "packages")
+   (:file "instruction")))
