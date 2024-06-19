@@ -5,4 +5,5 @@
   :components
   ((:file "packages")
    (:file "instruction")
+   (:file "integer-arithmetic-instructions")
    (:file "bitwise-instructions")))
