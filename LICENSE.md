@@ -1,4 +1,4 @@
-Copyright (c) 2010 - 2016
+Copyright (c) 2024
 
 Robert Strandh (robert.strandh@gmail.com)
 
