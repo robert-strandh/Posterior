@@ -6,4 +6,5 @@
   ((:file "packages")
    (:file "instruction")
    (:file "integer-arithmetic-instructions")
-   (:file "bitwise-instructions")))
+   (:file "bitwise-instructions")
+   (:file "memory-access-instructions")))
