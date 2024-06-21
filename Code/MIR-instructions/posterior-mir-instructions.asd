@@ -4,6 +4,7 @@
   :serial t
   :components
   ((:file "packages")
+   (:file "data")
    (:file "instruction")
    (:file "integer-arithmetic-instructions")
    (:file "bitwise-instructions")
