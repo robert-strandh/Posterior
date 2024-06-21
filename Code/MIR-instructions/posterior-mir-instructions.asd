@@ -7,4 +7,5 @@
    (:file "instruction")
    (:file "integer-arithmetic-instructions")
    (:file "bitwise-instructions")
+   (:file "shift-instructions")
    (:file "memory-access-instructions")))
