@@ -12,11 +12,16 @@
   ((%augend :initarg augend :reader augend)
    (%addend :initarg addend :reader addend)))
 
+(defgeneric minuend (instruction))
+
+(defgeneric subtrahend (instruction))
+
 (defclass integer-subtract-instruction
     (instruction
      one-successor-mixin
      binary-operation-mixin)
-  ())
+  ((%minuend :initarg :minuend :reader minuend)
+   (%subtrahend :initarg :subtrahend :reader subtrahend)))
 
 (defclass signed-less-instruction
     (instruction
