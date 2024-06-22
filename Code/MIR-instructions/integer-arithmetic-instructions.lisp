@@ -1,11 +1,16 @@
 (cl:in-package #:posterior-mir-instructions)
 
+(defgeneric augend (instruction))
+
+(defgeneric addend (instruction))
+
 (defclass integer-add-instruction
     (instruction
      one-successor-mixin
      binary-operation-mixin
      commutative-mixin)
-  ())
+  ((%augend :initarg augend :reader augend)
+   (%addend :initarg addend :reader addend)))
 
 (defclass integer-subtract-instruction
     (instruction
