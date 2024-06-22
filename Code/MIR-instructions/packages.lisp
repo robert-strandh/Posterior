@@ -10,8 +10,8 @@
    #:binary-operation-mixin
    #:unary-operation-mixin
    #:commutative-mixin
-   #:integer-add-instruction #:augend #:addend
-   #:integer-subtract-instruction #:minuend #:subtrahend
+   #:integer-add-instruction #:augend #:addend #:sum
+   #:integer-subtract-instruction #:minuend #:subtrahend #:difference
    #:signed-less-instruction
    #:signed-not-greater-instruction
    #:unsigned-less-instruction
