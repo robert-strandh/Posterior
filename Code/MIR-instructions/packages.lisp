@@ -12,6 +12,11 @@
    #:commutative-mixin
    #:integer-add-instruction #:augend #:addend
    #:integer-subtract-instruction #:minuend #:subtrahend
+   #:signed-less-instruction
+   #:signed-not-greater-instruction
+   #:unsigned-less-instruction
+   #:unsigned-not-greater-instruction
+   #:equal-instruction
    #:binary-bitwise-instruction
    #:bitwise-and-instruction
    #:bitwise-or-instruction
