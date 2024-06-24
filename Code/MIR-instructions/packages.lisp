@@ -12,6 +12,7 @@
    #:commutative-mixin
    #:integer-add-instruction #:augend #:addend #:sum
    #:integer-subtract-instruction #:minuend #:subtrahend #:difference
+   #:comparison-mixin #:comparand #:comparator
    #:signed-less-instruction
    #:signed-not-greater-instruction
    #:unsigned-less-instruction
