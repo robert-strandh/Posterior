@@ -29,6 +29,10 @@
    (%subtrahend :initarg :subtrahend :reader subtrahend)
    (%difference :initarg :difference :reader difference)))
 
+(defclass comparison-mixin ()
+  ((%comparand :initarg :comparand :reader comparand)
+   (%comparator :initarg :comparator :reader comparator)))
+
 (defclass signed-less-instruction
     (instruction
      multiple-successors-mixin
