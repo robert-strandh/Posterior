@@ -8,6 +8,7 @@
    (:file "instruction")
    (:file "add-instruction")
    (:file "subtract-instruction")
+   (:file "multiply-instruction")
    (:file "integer-arithmetic-instructions")
    (:file "bitwise-instructions")
    (:file "shift-instructions")
