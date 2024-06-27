@@ -11,7 +11,7 @@
    #:unary-operation-mixin
    #:commutative-mixin
    #:add-instruction #:augend #:addend #:sum
-   #:integer-subtract-instruction #:minuend #:subtrahend #:difference
+   #:subtract-instruction #:minuend #:subtrahend #:difference
    #:comparison-mixin #:comparand #:comparator
    #:signed-less-instruction
    #:signed-not-greater-instruction
