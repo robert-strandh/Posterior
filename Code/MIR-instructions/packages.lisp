@@ -10,7 +10,7 @@
    #:binary-operation-mixin
    #:unary-operation-mixin
    #:commutative-mixin
-   #:integer-add-instruction #:augend #:addend #:sum
+   #:add-instruction #:augend #:addend #:sum
    #:integer-subtract-instruction #:minuend #:subtrahend #:difference
    #:comparison-mixin #:comparand #:comparator
    #:signed-less-instruction
