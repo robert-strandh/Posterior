@@ -13,6 +13,7 @@
    #:add-instruction #:augend #:addend #:sum
    #:subtract-instruction #:minuend #:subtrahend #:difference
    #:multiply-instruction #:multiplicand #:multiplier #:product
+   #:divide-instruction #:divisor #:dividend #:quotient #:remainder
    #:comparison-mixin #:comparand #:comparator
    #:signed-less-instruction
    #:signed-not-greater-instruction
