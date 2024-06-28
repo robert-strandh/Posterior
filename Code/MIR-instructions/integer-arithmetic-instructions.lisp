@@ -20,10 +20,6 @@
      comparison-mixin)
   ())
 
-(defclass unsigned-divide-instruction
-    (instruction one-successor-mixin)
-  ())
-
 (defclass unsigned-less-instruction
     (instruction
      multiple-successors-mixin
