@@ -25,5 +25,5 @@
    #:bitwise-or-instruction
    #:bitwise-exclusive-or-instruction
    #:bitwise-not-instruction
-   #:memory-read-instruction
+   #:memory-read-instruction #:base-address #:offset #:datum
    #:memory-write-instruction))
