@@ -15,5 +15,4 @@
    (:file "shift-instructions")
    (:file "memory-read-instruction")
    (:file "memory-write-instruction")
-   (:file "memory-access-instructions")
    (:file "function-invocation-instructions")))
