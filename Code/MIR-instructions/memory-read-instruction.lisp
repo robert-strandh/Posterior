@@ -9,4 +9,5 @@
 
 (defclass memory-read-instruction (instruction one-successor-mixin)
   ((%base-address :initarg :base-address :reader base-address)
-   (%offset :initarg :offset :reader offset)))
+   (%offset :initarg :offset :reader offset)
+   (%datum :initarg :datum :reader datum)))
