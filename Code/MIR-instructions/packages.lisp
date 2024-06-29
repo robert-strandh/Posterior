@@ -24,4 +24,5 @@
    #:bitwise-and-instruction
    #:bitwise-or-instruction
    #:bitwise-exclusive-or-instruction
-   #:bitwise-not-instruction))
+   #:bitwise-not-instruction
+   #:memory-read-instruction))
