@@ -4,6 +4,11 @@
   (:use #:common-lisp)
   (:export
    #:instruction
+   #:datum
+   #:literal #:value
+   #:virtual-register #:size
+   #:integer-virtual-register
+   #:floating-point-virtual-register
    #:one-successor-mixin #:successor
    #:two-successors-mixin
    #:successor1 #:successor2
