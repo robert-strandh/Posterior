@@ -6,6 +6,7 @@
   ((:file "packages")
    (:file "data")
    (:file "instruction")
+   (:file "new-virtual-register-instruction")
    (:file "add-instruction")
    (:file "subtract-instruction")
    (:file "multiply-instruction")
