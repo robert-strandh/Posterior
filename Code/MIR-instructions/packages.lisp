@@ -15,6 +15,7 @@
    #:binary-operation-mixin
    #:unary-operation-mixin
    #:commutative-mixin
+   #:new-virtual-register-instruction
    #:add-instruction #:augend #:addend #:sum
    #:subtract-instruction #:minuend #:subtrahend #:difference
    #:multiply-instruction #:multiplicand #:multiplier #:product
