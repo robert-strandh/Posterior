@@ -1,0 +1,14 @@
+Posterior should not enforce any particular function-call protocol.
+Client code should hand Posterior a MIR instruction graph that has
+some initially defined lexical locations containing arguments to the
+function to be compiled.  Those arguments should all be lexical
+variables resulting from "lexifying" the lambda list.  The code body
+handed to Posterior should contain initforms of optional and keyword
+parameters.
+
+An initial version of Posterior might do no register allocation, and
+put all lexical variables on the stack.
+
+Should Posterior return binary code or "assembly code" (presumably in
+a form similar to that of Cluster, so that instructions are
+represented by instances of standard classes)?
