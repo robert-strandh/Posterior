@@ -1,0 +1,33 @@
+\input texinfo
+
+@settitle Posterior manual
+
+@titlepage
+@title Posterior manual
+@end titlepage
+
+@contents
+
+@include logos.texi
+
+@node Top
+@top @hir{}
+
+This document describes @posterior{} which is a library that
+represents a @commonlisp{} program as @mir{}, i.e., a control-flow
+graph consisting of @emph{instructions} and @emph{data} in which
+instructions for memory access are explicit.
+
+@menu
+* Introduction:: Introduction
+@end menu
+
+@include chap-introduction.texi
+@include chap-conversion-from-mir-to-lir.texi
+
+@node Index
+@unnumbered Index
+
+@printindex cp
+
+@bye
