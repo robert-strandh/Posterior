@@ -32,13 +32,14 @@ determine a register assignment B after the execution if I.
 Processing the instruction may involve altering it, but also perhaps
 inserting new instructions before it and after it.
 
-Let us assume that we have a MIR instruction of the form $c \leftarrow
-a\thinspace op\thinspace b$, where $c$ is a lexical variable, and $a$,
-and $b$ are either lexical variables or immediate inputs.  We further
-assume that at least one of $a$ and $b$ is not an immediate input.
-Our task is to generate one or more x86-style LIR instructions of the
-form $x \leftarrow x\thinspace op\thinspace y$, where $x$ is a
-register, and $y$ is either a register, an immediate input, or a stack
+Let us assume that we have a MIR instruction of the form @math{c
+\leftarrow a\thinspace op\thinspace b}, where @math{c} is a lexical
+variable, and @math{a}, and @math{b} are either lexical variables or
+immediate inputs.  We further assume that at least one of @math{a} and
+@math{b} is not an immediate input.  Our task is to generate one or
+more x86-style LIR instructions of the form @math{x \leftarrow
+x\thinspace op\thinspace y}, where @math{x} is a register, and
+@math{y} is either a register, an immediate input, or a stack
 location.
 
 \setlistdepth{20}
