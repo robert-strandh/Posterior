@@ -10,31 +10,31 @@
 
 (defclass signed-less-instruction
     (instruction
-     multiple-successors-mixin
+     two-successors-mixin
      comparison-mixin)
   ())
 
 (defclass signed-not-greater-instruction
     (instruction
-     multiple-successors-mixin
+     two-successors-mixin
      comparison-mixin)
   ())
 
 (defclass unsigned-less-instruction
     (instruction
-     multiple-successors-mixin
+     two-successors-mixin
      comparison-mixin)
   ())
 
 (defclass unsigned-not-greater-instruction
     (instruction
-     multiple-successors-mixin
+     two-successors-mixin
      comparison-mixin)
   ())
 
 (defclass equal-instruction
     (instruction
-     multiple-successors-mixin
+     two-successors-mixin
      comparison-mixin)
   ())
 
