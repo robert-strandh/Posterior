@@ -37,6 +37,3 @@
      two-successors-mixin
      comparison-mixin)
   ())
-
-(defclass negate-instruction (instruction one-successor-mixin)
-  ())
